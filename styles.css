@@ -1,0 +1,43 @@
+*{
+    margin: 10;
+    padding: 10;
+    border-radius: 10;
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    background-color: #fc90a8;
+}
+h1{
+    background-color: #395373;
+    text-align: center;
+    margin: 10px;
+}
+.title{
+    display: flex;
+    background-color: #395373;
+}
+.btcImg{
+    background-color: #395373;
+    width: 25px;
+    height: 25px;
+    margin-top: 11px;  
+    margin-left: 1px;
+}
+.container{
+    font-weight: 100;
+    
+    flex-wrap: wrap;
+    width: 250px;
+    height: 60px;
+    display: flex;
+
+}
+.mainInfo{
+    display: flex;
+    font-size: 30px;
+    text-align: center;
+    margin: 10px;
+}
+.input{
+    width: 100%;
+    padding: 12px;
+}
