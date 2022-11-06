@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+:root{
+    --titlePick: #0c4594;
+    --subPick: #37CCFE;
+    --backgroundPick: #001737;
+}
+.blankSpace{
+    position: absolute;
+    width: 50%;
+    height: 100px;
+    background-color: var(--backgroundPick);
+}
+#logoCurrency{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    color: aliceblue;
+    font-size: 90px;
+}

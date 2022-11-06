@@ -1,5 +1,5 @@
 const api = "http://economia.awesomeapi.com.br/json/last/BTC-USD"
-const valor = document.getElementById("bitcoin");
+const valor = document.getElementById("logoCurrency");
 
 function API(url){
     let request = new XMLHttpRequest();
@@ -23,9 +23,3 @@ function final(){
 requestCurrency()
 
 setInterval(final,5000);
-
-/* 
-Métodos a serem adicionados:
-1-Opção para o usuário escolher o tempo de atualização(em segundos).
-2-Opção para avisar caso o cotação chegue ao valor especificado. 
-*/
